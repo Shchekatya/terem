@@ -1,0 +1,59 @@
+form {
+    padding: 15px;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+input {
+    margin: 10px 0;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+select {
+    margin: 10px 0;
+    width: 19%;
+}
+
+#result_form, #result_form2 {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#result_form div {
+    display: flex; 
+    justify-content: center;
+}
+#result_form div span {
+    margin: 0 10px;
+}
+
+
+@media (max-width: 480px) {
+    form {      
+        width: 90%;        
+    }
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form div select {
+        width: 100%;
+    }
+    #result_form div {
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+    }
+}
